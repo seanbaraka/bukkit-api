@@ -1,0 +1,9 @@
+  name: StatsPlugin
+  main: gg.mtx.plugin.StatsPlugin
+  version: "1.20"
+  commands:
+    authenticate:
+        description: "Call this to automatically start tracking your progress"
+        usage: "/authenticate me"
+  libraries:
+    - org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0
